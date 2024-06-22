@@ -1,0 +1,28 @@
+# Игнорировать все файлы и папки
+*
+
+# Исключить из игнорирования tracks.db
+!tracks.db
+
+# Исключить из игнорирования .gitignore файл
+!.gitignore
+
+# Игнорировать файлы и папки, указанные ниже
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.cache/
+.env
+.gitconfig
+.lesshst
+.local/
+.ssh/
+.viminfo
+__pycache__/
+app.py
+cron.log
+data_base.py
+run_script.sh
+templates/
+venv/
